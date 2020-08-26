@@ -1,4 +1,6 @@
 ---
+- import_tasks: mysql.yml
 - import_tasks: postgres.yml
+- import_tasks: download_archive.yml
 - import_tasks: install.yml
 - import_tasks: configure.yml
